@@ -1,0 +1,132 @@
+<resources>
+    <!-- For App -->
+    <string name="app_name">shiftsample</string>
+    <string name="realm_file_name">shift_for_shuhu</string>
+    <string name="api_url">%1$ssw/app/work?%2$s</string>
+    <string name="detail_url">%1$ssw/detail/%2$s?mc=04&amp;utm_source=shotalert&amp;utm_medium=app&amp;utm_campaign=list_detail</string>
+    <string name="no_data">No Data…</string>
+    <string name="btn_back">＜ 戻る</string>
+    <string name="desc_image">image</string>
+    <string name="app_finish_msg">再度、バックキーを押すと\nアプリを終了します。</string>
+
+    <!-- For PullAndLoadListView -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_tap_label">タップして更新する</string>
+
+    <!-- For Search -->
+    <string name="total_count_zero">0件</string>
+    <string name="total_count">%1$s件</string>
+    <string name="no_choice">選択されていません</string>
+    <string name="search_title">検索</string>
+    <string name="search_title_area">エリア選択</string>
+    <string name="search_title_main_job">職種選択</string>
+    <string name="search_title_start_day">勤務開始日選択</string>
+    <string name="search_title_minimum_day">最低勤務日数選択</string>
+    <string name="search_title_keyword">キーワード入力</string>
+    <string name="search_label_button">検索する</string>
+    <string name="search_label_pref">都道府県</string>
+    <string name="search_label_start_day">勤務開始日</string>
+    <string name="search_label_minimum_day">最低勤務日数</string>
+    <string name="search_label_main_job">職種</string>
+    <string name="search_label_tags">こだわり</string>
+    <string name="search_label_keyword">キーワード</string>
+    <string name="search_label_popular_condition">人気の条件</string>
+    <string name="search_label_welcome_to_beginner">未経験者歓迎</string>
+    <string name="search_label_welcome_to_shuhu">主婦・主夫歓迎</string>
+    <string name="search_label_welcome_to_student">高校生歓迎</string>
+    <string name="search_label_holiday">土日祝のみ</string>
+    <string name="search_label_hibarai">日払い</string>
+    <string name="search_label_no_interview">面接なし</string>
+    <string name="search_keyword_hint">キーワードを入力</string>
+
+    <!-- For WorkList -->
+    <string name="wl_not_found_msg">条件に該当するワークは見つかりませんでした</string>
+    <string name="wl_total_count_zero">検索結果0件</string>
+    <string name="wl_total_count">検索結果:%1$s件</string>
+    <string name="wl_head_minimum_day">最低%1$s日勤務</string>
+    <string name="wl_head_start_day">開始:%1$s</string>
+    <string name="wl_traffic_access">%1$s%2$s分</string>
+    <string name="wl_traffic_access_on_foot">徒歩</string>
+    <string name="wl_traffic_access_bus">バス</string>
+    <string name="wl_traffic_access_taxi">車・タクシー</string>
+    <string name="wl_traffic_access_other">その他</string>
+    <string name="wl_real_work_time">実働%1$s</string>
+    <string name="wl_company">【募集企業】%1$s</string>
+    <string name="wl_deadline">%1$s締切</string>
+    <string name="wl_no_data"> - </string>
+    <string name="wl_splitter"> / </string>
+
+    <!-- For Web -->
+    <string name="dialog_load_msg">Loading…</string>
+    <string name="dialog_load_error_msg">通信に失敗しました。電波状態の良いところでやり直してください</string>
+
+    <!-- For API Params -->
+    <string name="param_base">results=20&amp;output=json&amp;apliflag=1&amp;key_api=key_001</string>
+    <string name="param_start">start=</string>
+    <string name="param_area">a=</string>
+    <string name="param_start_day">startday=</string>
+    <string name="param_pref">prefcode=</string>
+    <string name="param_large_area">largeareacode=L-0</string>
+    <string name="param_minimum_day">minimumday=</string>
+    <string name="param_main_job">mainjobcode=</string>
+    <string name="param_tags">tags[]=</string>
+    <string name="param_keyword">freeword=</string>
+
+    <!-- For Google Analytics Event Tracking -->
+    <string name="ga_category_search_top">search_top</string>
+    <string name="ga_category_select_start_day">select_start_day</string>
+    <string name="ga_category_select_area">select_area</string>
+    <string name="ga_category_select_minimum_term">select_minimum_term</string>
+    <string name="ga_category_select_job">select_job</string>
+    <string name="ga_category_select_keyword">select_keyword</string>
+    <string name="ga_category_list">list</string>
+    <string name="ga_category_detail">detail</string>
+
+    <string name="ga_action_no_select">no_select</string>
+    <string name="ga_action_back">back</string>
+    <string name="ga_action_search">search</string>
+    <string name="ga_action_load_more">load_more</string>
+
+    <string name="ga_action_area">area</string>
+    <string name="ga_action_start_day">start_day</string>
+    <string name="ga_action_minimum_term">minimum_term</string>
+    <string name="ga_action_job">job</string>
+    <string name="ga_action_keyword">keyword</string>
+    <string name="ga_action_condition_daily_payment">condition_daily_payment</string>
+    <string name="ga_action_condition_high_schooler">condition_high_schooler</string>
+    <string name="ga_action_condition_no_interview">condition_no_interview</string>
+    <string name="ga_action_condition_housewife">condition_housewife</string>
+    <string name="ga_action_condition_holiday">condition_holiday</string>
+    <string name="ga_action_condition_inexperience">condition_inexperience</string>
+
+    <string name="ga_action_today">today</string>
+    <string name="ga_action_tomorrow">tomorrow</string>
+    <string name="ga_action_day_after_tomorrow">day_after_tomorrow</string>
+    <string name="ga_action_two_days_after_tomorrow">two_days_after_tomorrow</string>
+    <string name="ga_action_this_week">this_week</string>
+    <string name="ga_action_next_week">next_week</string>
+    <string name="ga_action_week_after_next">week_after_next</string>
+    <string name="ga_action_this_month">this_month</string>
+    <string name="ga_action_next_month">next_month</string>
+    <string name="ga_action_month_after_next">month_after_next</string>
+
+    <string name="ga_action_1day">1day</string>
+    <string name="ga_action_2_3day">2_3day</string>
+    <string name="ga_action_4_7day">4_7day</string>
+    <string name="ga_action_8_13day">8_13day</string>
+    <string name="ga_action_14_21day">14_21day</string>
+    <string name="ga_action_22_28day">22_28day</string>
+    <string name="ga_action_29_60day">29_60day</string>
+    <string name="ga_action_61_90day">61_90day</string>
+
+    <string name="ga_action_main_job">job_mj_%1$s</string>
+
+    <string name="ga_action_pref">pref_%1$s</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
